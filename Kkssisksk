@@ -1,0 +1,32 @@
+#include <stdio.h>
+int main
+{ char choice;
+int number1, number2;
+system("clear");
+printf("Enter two numbers: ");
+scanf(" %d %d", &number1 &number2);
+printf(" Menu of Arithmetic Signs");
+printf(" A for Addition");
+printf(" S for subtraction");
+printf(" M for multiplication");
+printf(" D for division");
+printf(" Enter your choice (A,S,M,D) : ");
+scanf("%c", &choice);
+switch(choice)
+{ case'A':
+printf(" The addition of the numbers is: %d\n", number1 + number2);
+break;
+case'S':
+printf(" Subtraction of the numbers is: %d\n", number1-number2);
+break;
+case(M):
+printf(" Multiplication of the numbers is %d\n", number1*number2);
+break;
+case(D)
+printf("Division of the numbers is %d\n", number1/number2);
+break;
+default:
+printf("Invalid Menu choice")
+break;
+}
+printf("Thank you for using this programme")
